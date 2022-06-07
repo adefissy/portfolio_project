@@ -1,0 +1,100 @@
+/*
+Date: 6 May/2022
+Program: Box Model
+Author: Adeniji Adefisayo
+*/
+
+body{
+	height:700px;
+background-image:url('banner.jpg');
+}
+
+img{width:30px;
+height:30px;
+margin-left:70px;
+margin-top:40px
+}
+
+span{color:rgb(255,255,255);
+font-family:arial;
+}
+
+
+#menu li{
+display:inline-block;
+color:rgb(255,255,255);
+font-family:arial;
+padding:10px;
+}
+
+.content{display:flex;
+}
+
+.input{padding:15px;
+}
+
+#form{
+background-color:rgba(255,255,255,0.7);
+margin:70px;
+font-family:arial;
+}
+
+#text{
+margin:90px;
+font-family:arial;
+color:rgb(255,255,255);
+}
+
+button{
+width:200px;
+height:30px;
+background-color:rgb(250,0,0);
+margin-left:100px;
+font-family:arial;
+}
+
+#overlay{
+background-color:rgba(0,0,0,0.5);
+height:700px;
+margin:10px;
+}
+#list{
+margin-left:300px;
+margin-top:30px	
+}
+
+@media (max-width:480px){
+		.content{
+			flex-direction:column;
+		}
+		#overlay{
+			height:750px;
+			margin:0px;
+			}
+		button{
+			width:150px;
+			margin-left:60px;
+		}
+		#form{margin:0px;
+		}
+		#text{
+			margin:20px;
+		}
+		
+		#form{
+			margin:30px;
+		
+		}
+		#list{
+			margin-left:0px;
+			margin-top:9px;
+		}
+		#menu li{
+			padding:0px;
+		}
+		body{
+			background-position:center;
+			
+		}
+		
+	}
